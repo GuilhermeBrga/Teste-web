@@ -4,10 +4,10 @@ function menuShow() {
 
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
-        document.querySelector('.icon').src = "/trabalhoAcademia/assets/header/menu_white_36dp.svg";
+        document.querySelector('.icon').src = "https://raw.githubusercontent.com/GuilhermeBrga/Teste-web/abb86e8388d9a5f648119525d671dc2f383f183f/trabalhoAcademia/assets/header/menu_white_36dp.svg";
     } else {
         menuMobile.classList.add('open');
-        document.querySelector('.icon').src = "/trabalhoAcademia/assets/header/close_white_36dp.svg";
+        document.querySelector('.icon').src = "https://raw.githubusercontent.com/GuilhermeBrga/Teste-web/abb86e8388d9a5f648119525d671dc2f383f183f/trabalhoAcademia/assets/header/close_white_36dp.svg";
     }
 }
 
